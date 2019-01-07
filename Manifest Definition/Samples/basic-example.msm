@@ -1,0 +1,5 @@
+<Packages>
+    <Package Identifier="Some.Package.Name.Here" />
+    <Package Identifier="Another.Package.Name.Here" />
+    <Package Identifier="A.Third.Package" />
+</Packages>
