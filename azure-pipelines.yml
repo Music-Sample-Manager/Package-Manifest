@@ -21,9 +21,20 @@ steps:
     workingDirectory: "Manifest Parser.Tests"
     displayName: "Run unit tests"
 
-  # Publish Test Results to Azure Pipelines/TFS
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: "VSTest"
       testResultsFiles: "$(System.DefaultWorkingDirectory)/Manifest Parser.Tests/UnitTestResults/*.trx"
       searchFolder: "Manifest Parser.Tests/UnitTestResults"
+
+  - task: CopyFiles@2
+    inputs:
+      sourceFolder: "Manifest Parser/bin/Debug"
+      contents: "**.nupkg"
+      targetFolder: "$(Build.ArtifactStagingDirectory)"
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathtoPublish: "$(Build.ArtifactStagingDirectory)"
+      artifactName: "drop"
+      publishLocation: "Container" # Options: container, filePath
