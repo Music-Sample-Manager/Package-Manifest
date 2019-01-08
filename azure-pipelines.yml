@@ -25,4 +25,5 @@ steps:
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: "VSTest"
+      testResultsFiles: "**/*.trx"
       searchFolder: 'Manifest Parser.Tests\UnitTestResults'
