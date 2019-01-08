@@ -16,3 +16,7 @@ steps:
   - script: dotnet build --configuration $(buildConfiguration)
     workingDirectory: "Manifest Parser"
     displayName: "Build Manifest Parser - $(buildConfiguration)"
+
+  - script: dotnet test
+    workingDirectory: "Manifest Parser.Tests"
+    displayName: "Run unit tests"
