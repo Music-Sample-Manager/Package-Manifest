@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema xmlns="https://www.w3.org/2001/XMLSchema" targetNamespace="https://www.musicsamplemanager.org/PackageManifest" elementFormDefault="qualified">
+    <complexType name="Packages">
+        <sequence>
+            <element name="Package">
+                <complexType>
+                    <attribute name="Identifier" type="xs:string" />
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+</schema>
