@@ -8,6 +8,9 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Manifest Parser\Manifest Parser.csproj" />
+  </ItemGroup>
   <PropertyGroup>
     <VSTestLogger>trx</VSTestLogger>
     <VSTestResultsDirectory>UnitTestResults</VSTestResultsDirectory>
