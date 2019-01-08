@@ -24,4 +24,5 @@ steps:
   # Publish Test Results to Azure Pipelines/TFS
   - task: PublishTestResults@2
     inputs:
+      testResultsFormat: "VSTest"
       searchFolder: 'Manifest Parser.Tests\UnitTestResults'
