@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Packages xmlns="https://www.musicsamplemanager.org/PackageManifest" schemaLocation="https://www.musicsamplemanager.org/PackageManifest https://contributorwebsitebacken.blob.core.windows.net/schemas/MSMPackageManifest.xsd">
+    <Package Identifier="Some.Package.Name.Here" />
+    <Package Identifier="Another.Package.Name.Here" />
+    <Package Identifier="A.Third.Package" />
+</Packages>

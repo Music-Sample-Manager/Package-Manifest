@@ -11,6 +11,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Manifest Parser\Manifest Parser.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Test Documents\basic-example.msm" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
   <PropertyGroup>
     <VSTestLogger>trx</VSTestLogger>
     <VSTestResultsDirectory>UnitTestResults</VSTestResultsDirectory>
