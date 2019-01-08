@@ -36,7 +36,7 @@ namespace Manifest_Parser.Tests
         public void ParseManifest_WithValidFilePath_ReturnsValidManifestObject()
         {
             var sut = new PackageManifestParser();
-            var manifest = sut.ParseManifest(@"Test Documents\basic-example.msm");
+            var manifest = sut.ParseManifest(@"Test Documents/basic-example.msm");
 
             Assert.IsNotNull(manifest);
             Assert.IsNotNull(manifest.Packages);
