@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Manifest_Parser</RootNamespace>
+    <PackageId>MusicSampleManager.ManifestParser</PackageId>
+    <PackageDescription>A parser for MusicSampleManager package manifest files.</PackageDescription>
+    <Version>0.0.1</Version>
+    <Authors>Daniel Neel</Authors>
+    <Company>Music Sample Manager</Company>
+    <RepositoryUrl>https://github.com/Music-Sample-Manager/Package-Manifest/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
