@@ -4,11 +4,12 @@
     <RootNamespace>Manifest_Parser</RootNamespace>
     <PackageId>MusicSampleManager.ManifestParser</PackageId>
     <PackageDescription>A parser for MusicSampleManager package manifest files.</PackageDescription>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Daniel Neel</Authors>
     <Company>Music Sample Manager</Company>
     <RepositoryUrl>https://github.com/Music-Sample-Manager/Package-Manifest/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 </Project>
